@@ -4,7 +4,10 @@ class Aom < Formula
   url "https://aomedia.googlesource.com/aom.git",
       :tag      => "v1.0.0",
       :revision => "d14c5bb4f336ef1842046089849dee4a301fbbf0"
-
+  mirror "https://aomedia.googlesource.com/aom.git",
+      :tag      => "v1.0.0",
+      :revision => "d14c5bb4f336ef1842046089849dee4a301fbbf0"
+  
   bottle do
     cellar :any_skip_relocation
     sha256 "fdcfd3f69fbf8c9d5d3277a9cc0aabe6e4d708e3c505724828078ef93d3c82f7" => :mojave
